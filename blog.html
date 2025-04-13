@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Muhoro Ndirangu</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <a href="index.html" class="logo">MN</a>
+      <div class="nav-links">
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html" class="active">Blog</a>
+        <a href="contact.html" class="cta-button">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Blog Hero -->
+  <section class="blog-hero">
+    <div class="container">
+      <h1>My <span class="highlight">Blog</span></h1>
+      <p class="subtitle">Sharing insights on AI, Web Development, and Tech</p>
+    </div>
+  </section>
+
+  <!-- Blog Search & Filters -->
+  <section class="blog-tools">
+    <div class="container">
+      <div class="search-box">
+        <input type="text" placeholder="Search articles...">
+        <button><i class="fas fa-search"></i></button>
+      </div>
+      <div class="blog-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ai">AI/ML</button>
+        <button class="filter-btn" data-filter="web">Web Dev</button>
+        <button class="filter-btn" data-filter="career">Career</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Posts Grid -->
+  <section class="blog-posts">
+    <div class="container">
+      <!-- Article 1 -->
+      <article class="blog-card" data-category="ai">
+        <div class="blog-image">
+          <img src="https://via.placeholder.com/600x400" alt="AI Ethics">
+          <span class="category-tag ai">AI/ML</span>
+        </div>
+        <div class="blog-content">
+          <div class="blog-meta">
+            <span><i class="far fa-calendar"></i> June 15, 2024</span>
+            <span><i class="far fa-clock"></i> 5 min read</span>
+          </div>
+          <h2><a href="#">Ethical Considerations in AI Development</a></h2>
+          <p>Exploring the moral responsibilities of AI developers and how to implement ethical frameworks in machine learning projects...</p>
+          <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Article 2 -->
+      <article class="blog-card" data-category="web">
+        <div class="blog-image">
+          <img src="https://via.placeholder.com/600x400" alt="React Performance">
+          <span class="category-tag web">Web Dev</span>
+        </div>
+        <div class="blog-content">
+          <div class="blog-meta">
+            <span><i class="far fa-calendar"></i> May 28, 2024</span>
+            <span><i class="far fa-clock"></i> 8 min read</span>
+          </div>
+          <h2><a href="#">Optimizing React Applications</a></h2>
+          <p>Practical techniques to improve your React app's performance, including code splitting, memoization, and lazy loading...</p>
+          <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Article 3 -->
+      <article class="blog-card" data-category="career">
+        <div class="blog-image">
+          <img src="https://via.placeholder.com/600x400" alt="Tech Career">
+          <span class="category-tag career">Career</span>
+        </div>
+        <div class="blog-content">
+          <div class="blog-meta">
+            <span><i class="far fa-calendar"></i> April 10, 2024</span>
+            <span><i class="far fa-clock"></i> 6 min read</span>
+          </div>
+          <h2><a href="#">Breaking Into AI as a Student</a></h2>
+          <p>How I leveraged my computer science degree to build AI skills and land my first machine learning internship...</p>
+          <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+
+      <!-- Add more articles as needed -->
+    </div>
+  </section>
+
+  <!-- Newsletter (Optional) -->
+  <section class="newsletter">
+    <div class="container">
+      <h2>Stay Updated</h2>
+      <p>Subscribe to my newsletter for new articles on AI and web development.</p>
+      <form>
+        <input type="email" placeholder="Your email address" required>
+        <button type="submit" class="cta-button">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2024 Muhoro Ndirangu. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
