@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muhoro Ndirangu | AI & Web Developer</title>
+  <title>Muhoro Ndirangu | AI, Web Developer & Cyber Security Expert</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Font Awesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   <!-- Navigation Bar -->
   <nav>
     <div class="container">
-      <a href="index.html" class="logo">MN</a>
+      <a href="index.html" class="logo">Muhoro Ndirangu</a>
       <div class="nav-links">
+        <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="services.html">Services</a>
@@ -26,11 +26,18 @@
   <!-- Hero Section -->
   <section class="hero">
     <div class="container">
-      <h1><span class="highlight">Muhoro Ndirangu</span></h1>
-      <p class="tagline">AI/ML Developer | Web Designer | CS Student at Karatina University</p>
-      <div class="cta-buttons">
-        <a href="portfolio.html" class="cta-button">View My Work</a>
-        <a href="contact.html" class="cta-button-outline">Hire Me</a>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1><span class="highlight">Muhoro Ndirangu</span></h1>
+          <p class="tagline">I build <span class="typewriter" data-words='["AI solutions", "secure websites", "scalable databases", "networks"]'></span></p>
+          <div class="cta-buttons">
+            <a href="portfolio.html" class="cta-button">View My Work projects</a>
+            <a href="contact.html" class="cta-button-outline">Hire Me</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="animated-avatar"></div> <!-- 3D/Animated element -->
+        </div>
       </div>
     </div>
   </section>
@@ -38,39 +45,180 @@
   <!-- Skills Section -->
   <section class="skills">
     <div class="container">
-      <h2>What I Do</h2>
+      <h2>My <span class="highlight">Expertise</span></h2>
       <div class="skills-grid">
-        <div class="skill-card">
-          <i class="fas fa-robot"></i>
-          <h3>AI/ML</h3>
-          <p>Python, TensorFlow, NLP, Data Science</p>
+        <!-- AI/ML Card -->
+        <div class="skill-card" data-aos="fade-up">
+          <div class="skill-icon">
+            <i class="fas fa-robot"></i>
+            <div class="skill-progress" data-percent="90"></div>
+          </div>
+          <h3>Artificial Intelligence/Machine Learning</h3>
+          <ul>
+            <li>Python, TensorFlow</li>
+            <li>NLP, Computer Vision</li>
+            <li>Data Analysis (Pandas)</li>
+          </ul>
         </div>
-        <div class="skill-card">
-          <i class="fas fa-code"></i>
-          <h3>Web Dev</h3>
-          <p>HTML/CSS, JavaScript, React, Django</p>
+
+        <!-- Web Dev Card -->
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="skill-icon">
+            <i class="fas fa-code"></i>
+            <div class="skill-progress" data-percent="85"></div>
+          </div>
+          <h3>Web Development</h3>
+          <ul>
+            <li>HTML/CSS, JavaScript</li>
+            <li>React, Django, Node.js, flask</li>
+            <li>REST APIs</li>
+          </ul>
         </div>
-        <div class="skill-card">
-          <i class="fas fa-laptop-code"></i>
-          <h3>Freelance</h3>
-          <p>Custom Websites for Clients</p>
+
+        <!-- Cybersecurity Card -->
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="skill-icon">
+            <i class="fas fa-shield-alt"></i>
+            <div class="skill-progress" data-percent="80"></div>
+          </div>
+          <h3>Cybersecurity</h3>
+          <ul>
+            <li>Ethical Hacking</li>
+            <li>Network Security</li>
+            <li>Kali Linux</li>
+          </ul>
+        </div>
+
+        <!-- Networking Card -->
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="skill-icon">
+            <i class="fas fa-network-wired"></i>
+            <div class="skill-progress" data-percent="75"></div>
+          </div>
+          <h3>Networking</h3>
+          <ul>
+            <li>TCP/IP, DNS, VPNs</li>
+            <li>Cisco Packet Tracer</li>
+            <li>Network Troubleshooting</li>
+          </ul>
+        </div>
+
+        <!-- Databases Card -->
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="skill-icon">
+            <i class="fas fa-database"></i>
+            <div class="skill-progress" data-percent="85"></div>
+          </div>
+          <h3>Databases</h3>
+          <ul>
+            <li>SQL (MySQL, PostgreSQL)</li>
+            <li>NoSQL (MongoDB)</li>
+            <li>Database Optimization</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Client Results Section -->
+  <section class="results">
+    <div class="container">
+      <h2>Client <span class="highlight">Impact</span></h2>
+      <div class="results-grid">
+        <div class="result-card">
+          <div class="result-number">10+</div>
+          <p>Projects Completed</p>
+        </div>
+        <div class="result-card">
+          <div class="result-number">100%</div>
+          <p>Client Satisfaction</p>
+        </div>
+        <div class="result-card">
+          <div class="result-number">5</div>
+          <p>Security Audits</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating CTA -->
+  <div class="floating-cta">
+    <a href="contact.html">
+      <i class="fas fa-paper-plane"></i> Let's Build Your Project
+    </a>
+  </div>
+
   <!-- Footer -->
   <footer>
     <div class="container">
-      <p>© 2024 Muhoro Ndirangu. All rights reserved.</p>
-      <div class="social-links">
-        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+      <div class="footer-content">
+        <div class="footer-about">
+          <h3>Muhoro Ndirangu</h3>
+          <p>Prompt Engineering | Web Developer | Cybersecurity Expert</p>
+        </div>
+        <div class="footer-links">
+          <a href="portfolio.html">Work</a>
+          <a href="services.html">Services</a>
+          <a href="tel:+254757232129">+254 757 232 129</a>
+        </div>
       </div>
+      <div class="social-links">
+        <a href="https://github.com/dynostar" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/ndirangumuhoro target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://tiktok.com/@Js_tech" target="_blank"><i class="fab fa-tiktok></i></a>
+      </div>
+      <p class="copyright">© 2024 Muhoro Ndirangu. All rights reserved.</p>
     </div>
   </footer>
 
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- Animation library -->
   <script src="js/script.js"></script>
+  <script>
+    // Initialize animations
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+
+    // Typewriter effect
+    class Typewriter {
+      constructor(element, words) {
+        this.element = element;
+        this.words = words;
+        this.index = 0;
+        this.charIndex = 0;
+        this.type();
+      }
+      type() {
+        const currentWord = this.words[this.index];
+        this.element.textContent = currentWord.substring(0, this.charIndex++);
+        
+        if (this.charIndex <= currentWord.length) {
+          setTimeout(() => this.type(), 100);
+        } else {
+          setTimeout(() => this.erase(), 1500);
+        }
+      }
+      erase() {
+        const currentWord = this.words[this.index];
+        this.element.textContent = currentWord.substring(0, this.charIndex--);
+        
+        if (this.charIndex >= 0) {
+          setTimeout(() => this.erase(), 50);
+        } else {
+          this.index = (this.index + 1) % this.words.length;
+          setTimeout(() => this.type(), 500);
+        }
+      }
+    }
+    
+    document.addEventListener('DOMContentLoaded', () => {
+      new Typewriter(
+        document.querySelector('.typewriter'), 
+        ["AI solutions", "secure websites", "scalable databases", "networks"]
+      );
+    });
+  </script>
 </body>
 </html>
